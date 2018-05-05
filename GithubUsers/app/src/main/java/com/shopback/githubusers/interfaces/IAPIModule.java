@@ -5,4 +5,7 @@ package com.shopback.githubusers.interfaces;
  */
 public interface IAPIModule {
 
+    void getAllUsers(String since);
+    public void getUserDetail(String userName);
+
 }
